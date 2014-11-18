@@ -157,10 +157,10 @@ function! s:goyo_on(width)
   endif
 
   " vim-airline
-  let t:goyo_disabled_airline = exists("#airline")
-  if t:goyo_disabled_airline
-    AirlineToggle
-  endif
+  " let t:goyo_disabled_airline = exists("#airline")
+  " if t:goyo_disabled_airline
+  "   AirlineToggle
+  " endif
 
   " vim-powerline
   let t:goyo_disabled_powerline = exists("#PowerlineMain")
